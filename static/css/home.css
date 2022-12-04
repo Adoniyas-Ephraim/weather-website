@@ -1,0 +1,32 @@
+body {
+    background-color:rgb(128, 230, 230);
+    text-align: center;
+  }
+
+div {
+  font-family: "Comic Sans MS", sans-serif;
+  font-size: 36px;
+  color: rgb(100, 53, 113);
+  text-shadow:  rgba(136, 136, 136, 0.9) 5px 2px 2px;
+}
+
+input {
+  width: 300px;
+  height: 50px;
+  margin: 20px;
+  border: none;
+  border-radius: 10px;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  text-align: center;
+  font-size: 1.2em;
+}
+
+input:focus {
+  border: solid 5px rgb(72, 68, 150);
+  outline: none;
+}
+
+#weather_post {
+  font-family:'Tahoma', 'Geneva', sans-serif;
+  font-size: 36px;
+}

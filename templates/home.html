@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="icon" href="{{ url_for('static', filename='icon/icon.png')}}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/home.css')}}">
+</head>
+<body>
+    <p><span style='font-family: "Lucida Console", Monaco, monospace;
+         font-size: 48px;
+          text-shadow: rgba(136, 136, 136, 0.8) 5px 3px 2px;
+           color: rgb(188, 26, 26);
+           '>Weather Mashup</span></p>
+    <p>
+        <img src="https://i.redd.it/bnnftynu34o71.jpg";
+        style="width:35%";
+        alt="World Weather">
+    </p>
+    <div>LOCATION</div>
+    <form action="weather" method="post">
+        <input type="text" name="location_input">
+        {% for message in get_flashed_messages()%}
+            <p id="weather_post">{{message}}</p>
+        {% endfor %}
+    </form>
+</body>
+</html>
