@@ -2,7 +2,7 @@
 You can check what the weather looks like and the temperature at that location.
 <br>
 <br>
-<p>In order to run the application run the <a href="http://www.youtube.com">app.py </a>file</p>
+<p>In order to run the application run the <a href="https://github.com/Adoniyas-Ephraim/weather-website/blob/main/app.py">app.py </a>file</p>
 <br>
 After that click the link that has been given by the server. ("It might be diffrent than mine")
 <br>
