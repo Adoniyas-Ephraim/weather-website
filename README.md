@@ -12,4 +12,6 @@ Then you should be on this page.
 <br>
 <img width="781" alt="Screen Shot 2022-12-04 at 12 36 47 PM" src="https://user-images.githubusercontent.com/116392635/205509098-e7c7afa2-3529-4dc6-8d9e-579c966c3923.png">
 <br>
-After that just enter the location you want to search for and 💥BOOM
+After that just enter the location you want to search for and 💥BOOM💥
+<br>
+<img width="703" alt="Screen Shot 2022-12-04 at 12 38 18 PM" src="https://user-images.githubusercontent.com/116392635/205509993-a95e295f-69a3-4372-9371-223b701bd5e8.png">
